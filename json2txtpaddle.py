@@ -2,13 +2,12 @@ import os
 import json
 
 # path to the directory containing images
-image_dir = r"C:\Users\admin\Downloads\source"
-
+image_dir = path/to/images
 # path to save the annotation text file
-output_file = r"C:\Users\admin\Downloads\source\descriptor.txt"
+output_file = path/to/output
 
 # path to the annotations json file
-annotations_file = r"C:\Users\admin\Downloads\source\annotations\via_project_3Mar2023_17h42m_2images_json.json"
+annotations_file = /path/to/json-via-vgg
 
 with open(annotations_file, 'r') as f:
     annotations = json.load(f)
